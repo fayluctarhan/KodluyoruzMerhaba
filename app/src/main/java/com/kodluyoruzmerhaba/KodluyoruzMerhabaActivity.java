@@ -1,11 +1,9 @@
 package com.kodluyoruzmerhaba;
 
 import android.content.Context;
-import android.os.Build;
-import android.os.PersistableBundle;
-import android.support.annotation.RequiresApi;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.os.PersistableBundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
@@ -17,12 +15,19 @@ import java.util.Date;
 public class KodluyoruzMerhabaActivity extends AppCompatActivity {
 
 
-    private String getTime(String methodName){
+    public void fsafas
+
+    {
+
+
+    }
+
+    private String getTime(String methodName) {
 
         DateFormat dateFormat = new SimpleDateFormat("yyyy/mm/dd hh:mm:ss");
         Date date = new Date();
 
-        Log.e(methodName,dateFormat.format(date));
+        Log.e(methodName, dateFormat.format(date));
 
         return dateFormat.format(date);
 
@@ -39,7 +44,14 @@ public class KodluyoruzMerhabaActivity extends AppCompatActivity {
     @Override
     public View onCreateView(View parent, String name, Context context, AttributeSet attrs) {
         getTime("onCreateView");
-        return super.onCreateView(parent, name, context, attrs)
+        return super.onCreateView(parent, name, context, attrs);
+
+
+    }
+
+    @Override
+    public View onCreateView(String name, Context context, AttributeSet attrs) {
+        return super.onCreateView(name, context, attrs);
     }
 
     @Override
@@ -80,7 +92,6 @@ public class KodluyoruzMerhabaActivity extends AppCompatActivity {
         super.onRestart();
 
     }
-
     @Override
     public void onSaveInstanceState(Bundle outState, PersistableBundle outPersistentState) {
         getTime("onSaveInstanceState");
