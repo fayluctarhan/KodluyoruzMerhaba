@@ -98,4 +98,5 @@ public class KodluyoruzMerhabaActivity extends AppCompatActivity {
         super.onSaveInstanceState(outState, outPersistentState);
 
     }
+
 }
