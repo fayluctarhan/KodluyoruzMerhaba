@@ -96,7 +96,7 @@ public class KodluyoruzMerhabaActivity extends AppCompatActivity {
     public void onSaveInstanceState(Bundle outState, PersistableBundle outPersistentState) {
         getTime("onSaveInstanceState");
         super.onSaveInstanceState(outState, outPersistentState);
-        cxvdgfdsg
+        ///cxvdgfdsg
     }
 
 }
