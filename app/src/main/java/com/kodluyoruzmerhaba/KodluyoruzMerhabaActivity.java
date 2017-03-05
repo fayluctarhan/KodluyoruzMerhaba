@@ -39,7 +39,7 @@ public class KodluyoruzMerhabaActivity extends AppCompatActivity {
     @Override
     public View onCreateView(View parent, String name, Context context, AttributeSet attrs) {
         getTime("onCreateView");
-        return super.onCreateView(parent, name, context, attrs);
+        return super.onCreateView(parent, name, context, attrs)
     }
 
     @Override
